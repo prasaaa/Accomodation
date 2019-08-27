@@ -23,7 +23,7 @@ public class login_Controller extends HttpServlet {
     private Connection coni;
     private String query;
     private PreparedStatement ps;
-    
+   
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
